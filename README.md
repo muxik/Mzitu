@@ -4,4 +4,4 @@
 
 - 环境要求
     - requests (pip)
-    - python3^
+    - ^python3.*
