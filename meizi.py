@@ -152,7 +152,6 @@ class Mzitu:
                 self.requestIndexUrl(urls, i+4)
             else: continue
             for j in range(1, int(self.imageLen)):
-                print(j,self.imageLen)
                 if j == int(self.imageLen)-1:
                     isGNext = input("Info:已爬取一组是否继续 y/n")
                     if isGNext.lower() != 'y':exit()
